@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Live Substitution Caption</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="captionContainer">
+    <div class="player-info" id="playerOutInfo">
+      Out: <span id="playerOutName"></span> (#<span id="playerOutNumber"></span>)
+    </div>
+    <div class="player-info" id="playerInInfo">
+      In: <span id="playerInName"></span> (#<span id="playerInNumber"></span>)
+    </div>
+    <div class="substitution-time" id="subTime"></div>
+  </div>
+  <script src="https://unpkg.com/subscriptions-transport-ws@0.9.18/browser/client.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
