@@ -1,4 +1,5 @@
 # replace the mongodb url with your own local url
+# npm install
 # use node 22
 # to start the server 
    # node server.js
